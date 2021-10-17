@@ -6,7 +6,6 @@ html { box-sizing: border-box; }
 body {
     text-rendering: optimizeLegibility;
     margin: 0px;
-    background-color: yellow;
 }
 
 /*
@@ -36,12 +35,14 @@ body {
     position: absolute;
     height: 100%;
     width: 100%;
+    padding: 100px 420px;
 }
 
 .vizual {
     width: 335px;
     height: 440px;
     background: linear-gradient(0deg, #50cc49 0%, #06d7c1 100%);
+    color: white;
     border-radius: 10px 0px 0px 10px;
     float:left;
     position: relative;
@@ -64,8 +65,6 @@ body {
 .slogan {
     font-size: 16px;
     font-weight: 500;
-    color: white;
-    padding-top: 0px;
     padding-left: 30px;
     margin: 0px;
     padding-bottom: 0.5rem;
@@ -77,7 +76,6 @@ body {
 }
 
 .cenovka {
-    color: white;
     text-align: right;
     position: absolute;
     bottom: 30px;
@@ -124,7 +122,6 @@ body {
 .tlacitko {
     background-color: #f15f42;
     color: white;
-    text-align: center;
     padding: 15px 25px;
     text-transform: uppercase;
     border-radius: 5px;
